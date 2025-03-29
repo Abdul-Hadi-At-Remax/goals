@@ -7,7 +7,16 @@ export default function App() {
         <Text>This app is developed by Abdul Hadi!</Text>
       </View>
       <View>
-        <Text>Hello World</Text>
+        <Text
+          style={{
+            margin: 16,
+            borderWidth: 2,
+            borderColor: "red",
+            padding: 16,
+          }}
+        >
+          Hello, Tap the Button
+        </Text>
         <Button title="Tap me" />
       </View>
     </View>
